@@ -1,0 +1,16 @@
+
+ReTI/
+
+vorlage\.tex
+
+*.gz
+
+vorlage\.pdf
+
+missfont\.log
+
+vorlage\.aux
+
+vorlage\.dvi
+
+vorlage\.log

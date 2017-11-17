@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.2)  16 NOV 2017 14:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.2)  17 NOV 2017 13:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -480,6 +480,23 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen114
+\captionmargin@=\dimen115
+\captionwidth=\dimen116
+\caption@tempdima=\dimen117
+\caption@indent=\dimen118
+\caption@parindent=\dimen119
+\caption@hangindent=\dimen120
+)
+Package caption Info: KOMA-Script document class.
+\c@ContinuedFloat=\count93
+)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/03 v2.15a AMS math features
 \@mathmargin=\skip48
@@ -491,46 +508,46 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
-\ex@=\dimen114
+\ex@=\dimen121
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen115
+\pmbraise@=\dimen122
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count93
+\inf@bad=\count94
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count94
-\leftroot@=\count95
+\uproot@=\count95
+\leftroot@=\count96
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count96
-\DOTSCASE@=\count97
+\classnum@=\count97
+\DOTSCASE@=\count98
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
-\big@size=\dimen116
+\big@size=\dimen123
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count98
-\c@MaxMatrixCols=\count99
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
 \dotsspace@=\muskip10
-\c@parentequation=\count100
-\dspbrk@lvl=\count101
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
 \tag@help=\toks19
-\row@=\count102
-\column@=\count103
-\maxfields@=\count104
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
 \andhelp@=\toks20
-\eqnshift@=\dimen117
-\alignsep@=\dimen118
-\tagshift@=\dimen119
-\tagwidth@=\dimen120
-\totwidth@=\dimen121
-\lineht@=\dimen122
+\eqnshift@=\dimen124
+\alignsep@=\dimen125
+\tagshift@=\dimen126
+\tagwidth@=\dimen127
+\totwidth@=\dimen128
+\lineht@=\dimen129
 \@envbody=\toks21
 \multlinegap=\skip49
 \multlinetaggap=\skip50
@@ -577,11 +594,11 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks24
-\MT@count=\count105
+\MT@count=\count106
 LaTeX Info: Redefining \textls on input line 766.
-\MT@outer@kern=\dimen123
+\MT@outer@kern=\dimen130
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count106
+\MT@listname@count=\count107
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
@@ -597,18 +614,18 @@ File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 )) (./w04.aux)
 \openout1 = `w04.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -646,16 +663,16 @@ LaTeX Font Info:    ... okay on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
-\scratchdimen=\dimen124
+\scratchcounter=\count108
+\scratchdimen=\dimen131
 \scratchbox=\box29
-\nofMPsegments=\count108
-\nofMParguments=\count109
+\nofMPsegments=\count109
+\nofMParguments=\count110
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count110
-\MPscratchDim=\dimen125
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen132
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
 \everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -701,7 +718,9 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 44.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \microtypecontext on input line 45.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -721,7 +740,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+msa on input line 47.
+LaTeX Font Info:    Try loading font information for U+msa on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -729,7 +748,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 47.
+LaTeX Font Info:    Try loading font information for U+msb on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -741,10 +760,10 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 File: ../../../Bilder/w04_TI.png Graphic file (type png)
 
 <use ../../../Bilder/w04_TI.png>
-Package pdftex.def Info: ../../../Bilder/w04_TI.png used on input line 53.
+Package pdftex.def Info: ../../../Bilder/w04_TI.png used on input line 54.
 (pdftex.def)             Requested size: 338.58632pt x 193.48795pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
@@ -752,25 +771,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../../../Bilder/w04_TI.png
->] [2] (./w04.aux) ) 
+>] <pla1.png, id=13, 553.31718pt x 630.10406pt>
+File: pla1.png Graphic file (type png)
+ <use pla1.png>
+Package pdftex.def Info: pla1.png used on input line 101.
+(pdftex.def)             Requested size: 386.95897pt x 440.6564pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./pla1.png>] <hypercubef1blatt4.png, id=22, 293.59688pt x 173.14688pt>
+File: hypercubef1blatt4.png Graphic file (type png)
+
+<use hypercubef1blatt4.png>
+Package pdftex.def Info: hypercubef1blatt4.png used on input line 127.
+(pdftex.def)             Requested size: 338.58632pt x 199.6801pt.
+
+<hypercubef2blatt4.png, id=23, 293.59688pt x 173.14688pt>
+File: hypercubef2blatt4.png Graphic file (type png)
+
+<use hypercubef2blatt4.png>
+Package pdftex.def Info: hypercubef2blatt4.png used on input line 132.
+(pdftex.def)             Requested size: 338.58632pt x 199.6801pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./hypercubef1blatt4.png>] [5 <./hypercubef2blatt4.png>] (./w04.aux) ) 
 Here is how much of TeX's memory you used:
- 8244 strings out of 494901
- 154655 string characters out of 6178617
- 340437 words of memory out of 5000000
- 11412 multiletter control sequences out of 15000+600000
+ 9286 strings out of 494901
+ 173851 string characters out of 6178617
+ 354859 words of memory out of 5000000
+ 12445 multiletter control sequences out of 15000+600000
  13263 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 53i,19n,80p,242b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on w04.pdf (2 pages, 77541 bytes).
+ 53i,20n,80p,427b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on w04.pdf (5 pages, 138645 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 50 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 12294 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 12309 words of extra memory for PDF output out of 14400 (max. 10000000)
 
