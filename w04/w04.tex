@@ -14,6 +14,7 @@
 \usepackage[ngerman]{babel}
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
+\usepackage{caption}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage[automark,headsepline]{scrlayer-scrpage}
@@ -86,14 +87,61 @@ Tiefe = 3, Kosten = 5\\
 		1&1&1&1&0
 \end{tabular}
 \subsection*{(b/c)}
-\begin{flalign*}
-	e = \bar{f}\bar{w}zk \lor \bar{f}wz\bar{k}\lor \bar{f}wzk \lor f\bar{w}\bar{z}\bar{k} \lor f \bar{w}\bar{z}k \lor fw\bar{z}\bar{k}
-\end{flalign*}
-    
+$	e = \bar{f}\bar{w}zk \lor \bar{f}wz\bar{k}\lor \bar{f}wzk \lor f\bar{w}\bar{z}\bar{k} \lor f \bar{w}\bar{z}k \lor fw\bar{z}\bar{k}$
+
+\subsection*{(d)}
+
+	$\bar{e} = (f\lor w\lor z\lor k) \land (f\lor w \lor z \lor \bar{k}) \land (f \lor w \lor \bar{z} \lor k) \land (f\lor \bar{w}\lor z\lor k) \land (f\lor \bar{w} \lor z\lor \bar{k}) \land (\bar{f}\lor w\lor \bar{z}\lor k) \land (\bar{f}\lor w\lor \bar{z}\lor \bar{k})\land (\bar{f}\lor \bar{w}\lor z \lor \bar{k})\land (\bar{f} \lor \bar{w} \lor \bar{z} \lor k) \land (\bar{f}\lor \bar{w} \lor \bar{z} \lor \bar{k}) $
+\subsection*{(e)}
+Der Farmer kann es schaffen, indem er alle Zustände der DNF ($e$) aus b/c vermeidet und nur Zustände der KNF($\bar{e}$) abläuft.
 \section*{Aufgabe 3}
-
+\subsection*{(a)}
+\begin{center}
+	\centering
+	\includegraphics[width=0.8\textwidth]{pla1.png}
+	\label{fig:Schaltung}
+\end{center}
+\subsection*{(b)}
+$cost_1(PLA) = 6, \quad cost_2(PLA) = 6\cdot 4 +6 = 30$
 \section*{Aufgabe 4}
-
-\section*{Aufgabe 5}
+\subsection*{(a)}
+\begin{flalign*}
+	f_1 : &\bar{x_1}\bar{x_2}\bar{x_3}x_4 \lor\\
+	&x_1 \bar{x_2}\bar{x_3}x_4 \lor\\
+	&x_1 \bar{x_2} x_3 \bar{x_4}\lor\\
+	&x_1 \bar{x_2}x_3 x_4\lor\\
+	&x_1 x_2 \bar{x_3} x_4 \lor\\
+	&x_1 x_2 x_3 x_4
+\end{flalign*}
+\begin{flalign*}
+	f_2 : &\bar{x_1}\bar{x_2}x_3 x_4 \lor\\
+	&\bar{x_1} x_2 \bar{x_3} \bar{x_4} \lor\\
+	&\bar{x_1} x_2 \bar{x_3} x_4 \lor\\
+	&\bar{x_1} x_2 x_3 x_4 \lor \\
+	&x_1 x_2 \bar{x_3} x_4\lor\\
+	&x_1 x_2 x_3 x_4
+\end{flalign*}
+\subsection*{(b)}
+\begin{center}
+\centering
+\includegraphics[width=0.7\linewidth]{hypercubef1blatt4}
+\label{fig:hypercubef1blatt4}
+\end{center}
+\begin{center}
+\centering
+\includegraphics[width=0.7\linewidth]{hypercubef2blatt4}
+\label{fig:hypercubef2blatt4}
+\end{center}
+\subsection*{(c)} 
+\begin{align*}
+	f_1) \quad g_1 &= \bar{x_2}\bar{x_3}x_4 \lor\\
+	&x_1 x_2 \lor\\
+	&x_1 \bar{x_2} x_3
+\end{align*}
+\begin{align*}
+	f_2) \quad g_2 &= \bar{x_1} x_3 x_4 \lor \\
+	&x_2 x_2 \lor \\
+	&\bar{x_1} \bar{x_2} \bar{x_3} 
+\end{align*}
 
 \end{document}
