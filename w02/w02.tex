@@ -1,0 +1,78 @@
+% Template: Fabian Wenzelmann, 2016 - 2017
+
+\documentclass[a4paper,
+twoside, % für Unterscheidung gerade / ungerade Seite
+headlines=2.1 % Anzahl der Zeilen im Kopf, wenn man mehr verwenden will erhöhen
+]{scrartcl}
+\usepackage[
+margin=2cm,
+includefoot,
+footskip=35pt,
+includeheadfoot,
+headsep=0.5cm,
+]{geometry}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[automark,headsepline]{scrlayer-scrpage}
+\usepackage{enumerate}
+\usepackage[protrusion=true,expansion=true, kerning]{microtype} % Sieht damit einfach schöner aus
+
+\newcommand{\yourname}{Simon Schuler \and Jannik Thoma} % Weitere Autor*innen mittels \and Befehl einfügen
+% \newcommand{\yourname}{Dein Name \\ \texttt{123456789} \and Anderer Name \\ \texttt{987654321}} % Hier ein Bsp mit Martikelnummern, auf jeden Fall \headingname anpassen (keine newlines)
+\newcommand{\headingname}{\yourname} % Namen wie sie im Kopf erscheinen, wenn zu lang z.B. nur Nachnamen verwenden
+% Auch wenn man eine Trennung durch Kommata haben will hier die Namen erneut durch Kommata getrennt wiederholen
+% \newcommand{\headingname}{Dein Name, Anderer Name} % Hier ein Beispiel für eine anders formatierte Liste
+\newcommand{\lecture}{Technische Informatik WS 2017/18}
+\newcommand{\sheetnum}{2}
+\newcommand*{\QED}{\hfill\ensuremath{\square}}%
+\author{\yourname}
+\title{\lecture}
+\subtitle{Übungsblatt \sheetnum}
+\date{} % Wer ein Datum auf dem Dokument haben will hier eintragen, \today erstellt das heutige Datum
+
+\pagestyle{scrheadings}
+\setkomafont{pagehead}{\normalfont}
+\lohead{\lecture\\\headingname}
+\lehead{\lecture\\\headingname}
+\rohead{Übungsblatt \sheetnum}
+\rehead{Übungsblatt \sheetnum}
+
+
+\begin{document}
+	
+	\maketitle
+	
+	% Hier kommt dein eigentlicher LaTeX Code
+	\section*{Aufgabe 1}
+	
+	\section*{Aufgabe 2}
+	
+	\begin{tabular}{l l|l}
+		0 & LOADI 4	& ACC = n = 4 Testwert, exp. fib(4) = 5 \\
+		1 & STORE 30& S(30) = ACC = n = 4 \\
+		
+		2 & LOADI 1	& ACC = 1\\
+		3 & STORE 33 & Initialisiere zwei "Zwischenspeicher" S(32)/S(33)\\
+		4 & STORE 32 & für n-1 und n-2\\
+		5 & LOAD 30	& Lade S(30) = n in ACC\\
+		6 & JUMP EQ 9 & Wenn S(30) = n = 0 beende das Programm\\
+		7 & SUBI 1 & Dekrementiere (n-1) ACC = n\\
+		8 & STORE 30 & S(30) = ACC = n\\
+		9 & LOAD 33	& ACC = S(33)\\
+		10 & ADD 32 & Addiere beide Zwischenspeicher\\
+		11 & STORE 33 & S(33) += S(32)\\
+		12 & SUB 32 & Summe - (n-2)\\
+		13 & STORE 32 & Schreibe (n-1) in (n-2) und n in (n-1)\\
+		14 & JUMP -9 & Weiter ab Schritt 5\\
+		15 & END &
+	\end{tabular}
+	
+	\section*{Aufgabe 3}
+	
+	\section*{Aufgabe 4}
+	
+	\section*{Aufgabe 5}
+	
+\end{document}

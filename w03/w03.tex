@@ -1,0 +1,89 @@
+% Template: Fabian Wenzelmann, 2016 - 2017
+
+\documentclass[a4paper,
+  twoside, % für Unterscheidung gerade / ungerade Seite
+  headlines=2.1 % Anzahl der Zeilen im Kopf, wenn man mehr verwenden will erhöhen
+  ]{scrartcl}
+\usepackage[
+  margin=2cm,
+  includefoot,
+  footskip=35pt,
+  includeheadfoot,
+  headsep=0.5cm,
+]{geometry}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[automark,headsepline]{scrlayer-scrpage}
+\usepackage{enumerate}
+\usepackage[protrusion=true,expansion=true, kerning]{microtype} % Sieht damit einfach schöner aus
+
+\newcommand{\yourname}{Simon Schuler \and Jannik Thoma} % Weitere Autor*innen mittels \and Befehl einfügen
+% \newcommand{\yourname}{Dein Name \\ \texttt{123456789} \and Anderer Name \\ \texttt{987654321}} % Hier ein Bsp mit Martikelnummern, auf jeden Fall \headingname anpassen (keine newlines)
+\newcommand{\headingname}{\yourname} % Namen wie sie im Kopf erscheinen, wenn zu lang z.B. nur Nachnamen verwenden
+% Auch wenn man eine Trennung durch Kommata haben will hier die Namen erneut durch Kommata getrennt wiederholen
+% \newcommand{\headingname}{Dein Name, Anderer Name} % Hier ein Beispiel für eine anders formatierte Liste
+\newcommand{\lecture}{Technische Informatik WS 2017/18}
+\newcommand{\sheetnum}{3}
+\newcommand*{\QED}{\hfill\ensuremath{\square}}%
+\author{\yourname}
+\title{\lecture}
+\subtitle{Übungsblatt \sheetnum}
+\date{} % Wer ein Datum auf dem Dokument haben will hier eintragen, \today erstellt das heutige Datum
+
+\pagestyle{scrheadings}
+\setkomafont{pagehead}{\normalfont}
+\lohead{\lecture\\\headingname}
+\lehead{\lecture\\\headingname}
+\rohead{Übungsblatt \sheetnum}
+\rehead{Übungsblatt \sheetnum}
+
+
+\begin{document}
+
+\maketitle
+
+% Hier kommt dein eigentlicher LaTeX Code
+\section*{Aufgabe 1}
+    
+\section*{Aufgabe 2}
+  
+\section*{Aufgabe 3}
+  
+  Sei \(a \in \mathds{B}^{n}, a = a_{n-1}, ...., a_{0} \Rightarrow [a]=[a_{n-1}a]\)\\
+  Zweierkomplement sei definiert als: 
+  \begin{flalign*}
+  [a] = -a_{n-1} \cdot 2^{n-1} + \sum_{i=0}^{n-1}a_i2^i
+  \end{flalign*}
+  Beweis der oberen Annahme:
+  \begin{flalign*}
+  [a_{n-1}a] &= (-a_{n-1} \cdot 2^n) + \sum_{i=0}^{n-1}a_i2^i \\
+  &= -a_{n-1} \cdot 2^n + (a_{n-1}\cdot 2^{n-1}+ \sum_{i=0}^{n-2}a_i2^i) \\
+  &= (-2\cdot a_{n-1}+a_{n-1})\cdot 2^{n-1}+\sum_{i=0}^{n-2}a_i2^i\\
+  &= a-a_{n-1}\cdot 2^{n-1}+\sum_{i=0}^{n-2}a_i2^i \\
+  &=[a]
+  \end{flalign*}
+
+\section*{Aufgabe 4}
+
+\section*{Aufgabe 5}
+		(a)\begin{flalign*}
+			(\sum_{i=-k}^{n-1}2^i \cdot 0)-0 \cdot (2^n-2^{-k}) &= 0 \\
+			(\sum_{i=-k}^{n-1}2^i \cdot 1) -1 \cdot (2^n - 2^{-k} &= 0
+		\end{flalign*}
+		Die Symmetrie des Einerkomplements zeigt, dass es zwei Darstellungen der '0' gibt: Zum einen alle Bits auf '0' gesetzt, andererseits alle auf '1'. \\
+		(b) Addiert man $d$ und das Komplement $d'$ erhält man die größte Zahl, also '0' im Einerkomplement. \\
+		Z.z.: $[d]+[d'] = 0$ \\\\
+		Fall 1: \\
+		\begin{align*}
+			&(\sum_{i=-k}^{n-1}2^i \cdot 1)-0\cdot (2^n-2^{-k})+(\sum_{i=-k}^{n-1}2^i \cdot 0) -1 \cdot (2^n - 2^{-k}) =0 \\
+			&= (\sum_{i=-k}^{n-1}2^i \cdot 1) -1 \cdot (2^n - 2^{-k}) = 0
+		\end{align*} \\
+		Fall 2:\\
+		\begin{align*}
+			&(\sum_{i=-k}^{n-1}2^i \cdot 0)-1 \cdot (2^n-2^{-k}+(\sum_{i=-k}^{n-1}2^i \cdot 1)-0\cdot(2^n-2^{-k}) = 0 \\ 
+			&=-1\cdot(2^n-2^{-k}) +(\sum_{i=-k}^{n-1}2^i \cdot 1) = 0
+		\end{align*}
+		
+\end{document}
